@@ -1,5 +1,6 @@
 ﻿using System;
 using TicTacToe.Events;
+using TicTacToe.Game;
 using TicTacToe.Utils;
 
 namespace TicTacToe
@@ -8,7 +9,8 @@ namespace TicTacToe
     {
         static void Main()
         {
-            OnPlayerJoinEvent.StartMenu();
+            OnLoad.PreStart();
+            //OnPlayerJoinEvent.StartMenu();
             int[][] winCombos = new int[][]
 {
     new int[] {0,1,2},

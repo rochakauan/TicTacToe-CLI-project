@@ -30,7 +30,7 @@ namespace TicTacToe.Utils
             return Console.ReadLine();
         }
 
-        public static void Pause(string message = "Pressione qualquer tecla para continuar...", bool clearConsoleBefore = true)
+        public static void Pause(string message = "Pressione qualquer tecla para continuar...", bool clearConsoleBefore = false)
         {
             if (clearConsoleBefore)
                 Console.Clear();
